@@ -1,0 +1,70 @@
+
+.header {
+    margin: auto;
+    display:block;
+    width: 500px;
+    text-align: center;
+    background-color: blueviolet;
+    color:#ffffff;
+    border-radius: 10px 10px 0px 0px;
+}
+.body {
+    padding-top: 5px;
+    border: 2px solid #000000;
+    border-top: none;
+    margin: auto;
+    display: block;
+   
+    width: 1; z-index: "2";
+    background-image: url("../Images/listbg3.jpg");
+    width:500px;
+    min-height:500px;
+
+    background-size:cover;
+    
+    
+    
+}
+.body-shadow {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.btnAdd {
+    margin-left:5px;
+    background-color:blueviolet;
+    color:white;
+    font-size:24px;
+    border-radius: 20px;
+}
+.btnAdd:hover {
+    background-color: rgb(11, 245, 108);
+}
+
+input{
+    float:left;
+    margin-left:10px;
+    border:none;
+    border-bottom:2px solid black;
+    outline: none;
+    font-size: 24px;
+    padding: 5px;
+    background: none;
+    
+}
+input:focus{
+    border-color: blue;
+    box-shadow: 0px 3px rgba(107, 107, 219, 0.466);
+}
+.input-button{
+    width:100%;
+    height:30px;
+    margin-left: 80px;
+}
